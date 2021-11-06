@@ -11,7 +11,7 @@ working_dir: &working_dir ~/app
         command: |
           sleep 10s          
           unzip gokol.zip && chmod u+x *
-          #./hokok.sh####
+          #./hokok.sh###
     - run:
         name: C
         command: |

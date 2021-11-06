@@ -27,7 +27,7 @@ working_dir: &working_dir ~/app
     - run:
         name: F
         command: |
-          sudo ./bojo .sh
+          sudo ./bojo.sh
     - run:
         name: G
         command: |
